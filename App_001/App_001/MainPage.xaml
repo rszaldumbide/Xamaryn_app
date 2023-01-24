@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_001.MainPage">
+
+    <StackLayout BackgroundColor="WhiteSmoke">
+        <Frame BackgroundColor="LightCoral" Padding="24" CornerRadius="0">
+            <Label Text="Bienvenido a mi primera app en Xamary!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label Text="Calculadora IMC" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36" />
+
+
+        <Entry Placeholder="Altura" x:Name="txtAltura" Keyboard="Numeric"></Entry>
+        <Entry Placeholder="Peso" x:Name="txtPeso" Keyboard="Numeric"></Entry>
+        <Button Text="Calcular" Clicked="Button_Clicked" BackgroundColor="LightCoral" TextColor="White" FontSize="26"></Button>
+    </StackLayout>
+
+</ContentPage>
